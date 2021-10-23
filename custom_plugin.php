@@ -100,6 +100,10 @@ function missing_activate_wc() {
     printf( '<div class="%1$s"><p>%2$s</p></div>', esc_attr( $class ), esc_html( $message ) ); 
 }
 
+/**
+ * Adds a new user meta “last_order_id” that’s the last “delivered” order id.
+ */
+
 function add_last_order_id_usermeta($order) {
     $order_data = wc_get_order( $order );
     $status = $order_data->get_status();
