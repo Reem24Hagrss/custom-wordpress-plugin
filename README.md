@@ -2,7 +2,7 @@
 This plugin contains follow : 
 * Adds a new user meta `age` in user profile.
 * Adds a new order status `delivered` to Woocommerce order statuses (extends Woocommerce plugin) 
-* Adds a new user meta `last_order_i` that’s the last “delivered” order id.
+* Adds a new user meta `last_order_id` that’s the last “delivered” order id.
 
 ## Technology used :
 > * Wordpress 
